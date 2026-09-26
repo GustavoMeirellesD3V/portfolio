@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio de Gustavo Meirelles, desenvolvedor front-end. Sites responsivos com HTML, CSS e JavaScript.">
+  <title>Gustavo Meirelles — Desenvolvedor Front-end</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Work+Sans:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+<a class="skip" href="#conteudo">Pular para o conteúdo</a>
+
+<header class="nav">
+  <div class="wrap nav__inner">
+    <a class="nav__mark" href="#topo">gustavo<span>.dev</span></a>
+    <nav class="nav__links" aria-label="Seções">
+      <a href="#sobre">sobre</a>
+      <a href="#projetos">projetos</a>
+      <a href="#stack">stack</a>
+      <a class="nav__cta" href="#contato">contato</a>
+    </nav>
+  </div>
+</header>
+
+<main id="conteudo">
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero wrap" id="topo">
+    <div class="hero__grid">
+
+      <div class="hero__text">
+        <p class="hero__eyebrow"><span class="hero__dot" aria-hidden="true"></span> Desenvolvedor front-end — Lorena, SP</p>
+        <h1 class="hero__name">Gustavo<em>Meirelles</em></h1>
+        <p class="hero__pitch">
+          Faço sites que carregam rápido, funcionam no celular e resolvem um problema real do cliente.
+          <strong>HTML, CSS e JavaScript</strong> do zero, com backend quando o projeto pede.
+        </p>
+        <div class="hero__actions">
+          <a class="btn btn--solid" href="#projetos">Ver projetos</a>
+          <a class="btn" href="#contato">Falar comigo</a>
+        </div>
+      </div>
+
+      <figure class="hero__photo">
+        <img src="assets/gustavo.jpg" alt="Gustavo Meirelles, desenvolvedor front-end"
+             width="880" height="1173" fetchpriority="high">
+      </figure>
+
+    </div>
+  </section>
+
+  <!-- ===================== SOBRE ===================== -->
+  <section class="section" id="sobre">
+    <div class="wrap">
+      <p class="section__label">01 — Sobre</p>
+      <h2 class="section__title">Front-end que vai do layout ao deploy</h2>
+
+      <div class="about">
+        <div class="about__text">
+          <!-- EDITE: conte sua história do seu jeito -->
+          <p>
+            Sou desenvolvedor front-end e trabalho principalmente com HTML, CSS e JavaScript puro —
+            sem framework quando o projeto não precisa de um. Gosto de código enxuto, interface
+            limpa e página que não faz o usuário esperar.
+          </p>
+          <p>
+            Hoje estou construindo um sistema de agendamento online para uma nail designer, cuidando
+            de tudo: layout, banco de dados, autenticação e publicação. É o tipo de projeto que me
+            interessa — pequeno o bastante para eu fazer inteiro, grande o bastante para exigir decisão.
+          </p>
+          <p>
+            Aberto a freelas, projetos de cliente e oportunidades como front-end júnior.
+          </p>
+        </div>
+
+        <dl class="facts">
+          <div class="fact">
+            <dt>Localização</dt>
+            <dd>Lorena, São Paulo — Brasil</dd>
+          </div>
+          <div class="fact">
+            <dt>Foco</dt>
+            <dd>Interfaces responsivas e sites sob medida</dd>
+          </div>
+          <div class="fact">
+            <dt>Disponibilidade</dt>
+            <dd>Freelas e vagas júnior</dd>
+          </div>
+          <div class="fact">
+            <dt>GitHub</dt>
+            <dd><a href="https://github.com/GustavoMeirellesD3V" target="_blank" rel="noopener">@GustavoMeirellesD3V</a></dd>
+          </div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PROJETOS ===================== -->
+  <section class="section" id="projetos">
+    <div class="wrap">
+      <p class="section__label">02 — Projetos</p>
+      <h2 class="section__title">O que eu construí</h2>
+
+      <!-- EDITE: para um novo projeto, duplique o bloco <article class="feature"> -->
+      <article class="feature">
+        <div class="feature__main">
+          <p class="feature__kicker">Projeto de cliente · no ar</p>
+          <h3 class="feature__title">Carioca e Glow</h3>
+          <p class="feature__desc">
+            Sistema de agendamento online para uma nail designer. A cliente escolhe o serviço,
+            vê os horários livres e marca sozinha, sem troca de mensagem. O salão acompanha a
+            agenda por um painel próprio.
+          </p>
+
+          <ul class="feature__points">
+            <li>Agenda com horários em tempo real, sem conflito de marcação</li>
+            <li>Painel de administração com login protegido</li>
+            <li>Feito para celular primeiro — é de onde vem quase todo agendamento</li>
+          </ul>
+
+          <ul class="tags">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Supabase</li>
+            <li>PostgreSQL</li>
+            <li>Vercel</li>
+          </ul>
+        </div>
+
+        <div class="feature__side">
+          <dl class="meta">
+            <div class="meta__row">
+              <dt>Função</dt>
+              <dd>Projeto inteiro — front, banco e deploy</dd>
+            </div>
+            <div class="meta__row">
+              <dt>Ano</dt>
+              <dd>2026</dd>
+            </div>
+            <div class="meta__row">
+              <dt>Situação</dt>
+              <dd>Em produção</dd>
+            </div>
+          </dl>
+          <div class="feature__actions">
+            <a class="btn btn--solid" href="https://cariocaeglow.com.br" target="_blank" rel="noopener">Visitar o site ↗</a>
+            <a class="btn" href="https://github.com/GustavoMeirellesD3V" target="_blank" rel="noopener">Ver o código ↗</a>
+          </div>
+        </div>
+      </article>
+
+      <p class="projects__note">
+        Este é o projeto que está no ar hoje. Os próximos entram aqui conforme ficam prontos —
+        o que está em andamento fica no
+        <a href="https://github.com/GustavoMeirellesD3V" target="_blank" rel="noopener">meu GitHub</a>.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===================== STACK ===================== -->
+  <section class="section" id="stack">
+    <div class="wrap">
+      <p class="section__label">03 — Stack</p>
+      <h2 class="section__title">Ferramentas do dia a dia</h2>
+
+      <div class="stack">
+        <div class="stack__group">
+          <h3>Front-end</h3>
+          <ul>
+            <li>HTML5 semântico</li>
+            <li>CSS3 — Flexbox e Grid</li>
+            <li>JavaScript (ES6+)</li>
+            <li>Layout responsivo</li>
+            <li>Acessibilidade básica</li>
+          </ul>
+        </div>
+        <div class="stack__group">
+          <h3>Dados e backend</h3>
+          <ul>
+            <li>Supabase</li>
+            <li>PostgreSQL</li>
+            <li>Autenticação e sessões</li>
+            <li>Consumo de APIs REST</li>
+          </ul>
+        </div>
+        <div class="stack__group">
+          <h3>Fluxo de trabalho</h3>
+          <ul>
+            <li>Git e GitHub</li>
+            <li>Deploy na Vercel</li>
+            <li>VS Code</li>
+            <li>DevTools do navegador</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTATO ===================== -->
+  <section class="section" id="contato">
+    <div class="wrap">
+      <p class="section__label">04 — Contato</p>
+      <h2 class="section__title">Vamos conversar sobre o seu projeto</h2>
+      <p class="contact__lead">
+        Me manda uma mensagem contando o que você precisa. Respondo com uma ideia de escopo,
+        prazo e como daria pra começar.
+      </p>
+
+      <div class="contact__grid">
+        <div class="card">
+          <span class="card__label">E-mail</span>
+          <span class="card__value" id="email">gustavomeirellesjs@gmail.com</span>
+          <button class="copy" type="button" data-copy="#email">Copiar</button>
+        </div>
+        <a class="card" href="https://github.com/GustavoMeirellesD3V" target="_blank" rel="noopener">
+          <span class="card__label">GitHub</span>
+          <span class="card__value">@GustavoMeirellesD3V ↗</span>
+        </a>
+        <a class="card" href="https://instagram.com/gdmeirelles_" target="_blank" rel="noopener">
+          <span class="card__label">Instagram</span>
+          <span class="card__value">@gdmeirelles_ ↗</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="wrap footer">
+  <span>© <span id="ano">2026</span> Gustavo Meirelles</span>
+  <span>Feito à mão com HTML, CSS e JavaScript</span>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
