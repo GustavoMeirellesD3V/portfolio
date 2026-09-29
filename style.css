@@ -186,7 +186,9 @@ section:last-child { margin-bottom: 0; }
 .flow p:last-child { margin-bottom: 0; }
 .flow p b, .flow p strong { color: var(--ink); font-weight: 500; }
 
-/* cartão de projeto */
+/* cartões de projeto */
+.works { display: grid; gap: 16px; margin-bottom: 22px; }
+
 .work {
   display: block;
   text-decoration: none;

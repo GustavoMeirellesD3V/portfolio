@@ -40,7 +40,7 @@
     <nav aria-label="Seções">
       <ul>
         <li><a href="#sobre"><span class="bar"></span> 01 — Sobre</a></li>
-        <li><a href="#projetos"><span class="bar"></span> 02 — Projeto</a></li>
+        <li><a href="#projetos"><span class="bar"></span> 02 — Projetos</a></li>
         <li><a href="#stack"><span class="bar"></span> 03 — Stack</a></li>
         <li><a href="#contato"><span class="bar"></span> 04 — Contato</a></li>
       </ul>
@@ -66,18 +66,41 @@
       <p class="eyebrow">01 — Sobre</p>
       <h2>Front-end que vai do layout ao deploy</h2>
       <p>Sou desenvolvedor front-end e trabalho principalmente com <b>HTML, CSS e JavaScript puro</b> — sem framework quando o projeto não precisa de um. Gosto de código enxuto, interface limpa e página que não faz o usuário esperar.</p>
-      <p>Hoje estou construindo um sistema de agendamento online para uma nail designer, cuidando de tudo: layout, banco de dados, autenticação e publicação. É o tipo de projeto que me interessa — pequeno o bastante para eu fazer inteiro, grande o bastante para exigir decisão.</p>
+      <p>Hoje tenho dois sistemas no ar para comércios da minha cidade: um agendamento para uma nail designer e um delivery para uma loja de açaí. Nos dois cuidei de tudo — layout, banco de dados, autenticação, regras de segurança e publicação. É o tipo de projeto que me interessa: pequeno o bastante para eu fazer inteiro, grande o bastante para exigir decisão.</p>
       <p>Moro em <b>Cachoeira Paulista, São Paulo</b>, e estou aberto a freelas, projetos de cliente e oportunidades como front-end júnior.</p>
     </section>
 
     <section id="projetos">
-      <p class="eyebrow">02 — Projeto</p>
+      <p class="eyebrow">02 — Projetos</p>
       <h2>O que eu construí</h2>
+
+      <div class="works">
+
+      <article class="work">
+        <div class="work__top">
+          <h3>Açaí Mais <span>Chantilly</span></h3>
+          <span class="live"><i></i> no ar</span>
+        </div>
+        <p>Site de delivery para uma açaiteria. O cliente monta o copo escolhendo tamanho, sabor e complementos, paga por PIX e o pedido cai no WhatsApp da loja já formatado. O balcão acompanha tudo por um painel que recebe os pedidos ao vivo.</p>
+        <ul class="bullets">
+          <li>QR Code do PIX gerado no próprio navegador, com o valor do pedido embutido — sem biblioteca externa</li>
+          <li>Preço recalculado no servidor a cada pedido: mexer no JavaScript pelo DevTools não muda o valor</li>
+          <li>Painel com três níveis de acesso e registro de quem alterou o quê</li>
+          <li>A loja abre e fecha sozinha pelo horário da semana, no fuso de Brasília</li>
+        </ul>
+        <ul class="chips">
+          <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Supabase</li><li>PostgreSQL</li><li>RLS</li><li>Vercel</li>
+        </ul>
+        <div class="links">
+          <a class="lnk lnk--fill" href="https://acai-delivery-one.vercel.app" target="_blank" rel="noopener">Visitar o site ↗</a>
+          <a class="lnk" href="https://github.com/GustavoMeirellesD3V/acai-delivery" target="_blank" rel="noopener">Ver o código ↗</a>
+        </div>
+      </article>
 
       <article class="work">
         <div class="work__top">
           <h3>Carioca e <span>Glow</span></h3>
-          <span class="live"><i></i> em produção</span>
+          <span class="live"><i></i> no ar</span>
         </div>
         <p>Sistema de agendamento online para uma nail designer. A cliente escolhe o serviço, vê os horários livres e marca sozinha, sem troca de mensagem. O salão acompanha a agenda por um painel próprio.</p>
         <ul class="bullets">
@@ -94,8 +117,10 @@
         </div>
       </article>
 
+      </div>
+
       <p class="note">
-        Projeto inteiro — front, banco e deploy · 2026<br>
+        Projetos inteiros — front, banco e deploy · 2026<br>
         Os próximos entram aqui conforme ficam prontos; o que está em andamento fica no
         <a href="https://github.com/GustavoMeirellesD3V" target="_blank" rel="noopener">meu GitHub</a>.
       </p>
